@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="43dp"
+    android:paddingRight="47dp"
+    android:id="@+id/homeLayout"
+    android:background="@drawable/bg">
+
+    <Button
+        android:text="Play"
+        android:id="@+id/btnPlay"
+
+        android:textColor="#FFFFFF"
+        android:textSize="31dp"
+
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="150dp"
+        android:layout_alignParentStart="true"
+
+
+        android:background="@drawable/buttonshape"
+        />
+
+    <Button
+        android:text="Scores"
+        android:id="@+id/btnScores"
+        android:textColor="#FFFFFF"
+        android:textSize="31dp"
+
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnPlay"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/buttonshape"
+        />
+
+    <Button
+        android:text="Exit"
+        android:id="@+id/btnExit"
+        android:textColor="#FFFFFF"
+        android:textSize="31dp"
+
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/btnScores"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/buttonshape"
+        />
+</RelativeLayout>
